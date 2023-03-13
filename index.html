@@ -9,64 +9,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="card">
-        <img
-            class="card__image"
-            alt="Equilibrium" 
-            src="./images/image-equilibrium.jpg" 
-        />
-        <section>
-            <div class="card__image-overlay"></div>
-            <!-- <img src="./images/icon-view.svg" alt="icon view"> -->
+    <main>
+        <section class="wrapper">
+            <section class="card">
+                <img 
+                    class="card__image" 
+                    alt="NFT" 
+                    src="./images/image-equilibrium.jpg" 
+                />
+                <aside class="card__overlay">
+                    <img class="overlay__img" src="./images/icon-view.svg" alt="Icon">
+                </aside>
+            </section>
             <h1 class="card__title">Equilibrium #3429</h1>
-            <p class="card__text">
-                Our Equilibrium collection promotes balance and calm.
+            <p class="card__info">Our Equilibrium collection 
+                promotes balance and calm.
             </p>
-        </section>
-        <section class="info">
-            <span class="info__value">
-                <img 
-                    alt="Ethereum"    
-                    src="./images/icon-ethereum.svg" 
+            <ul class="price">
+                <li class="price__value">0.041 ETH</li>
+                <li class="price__days">3 days left</li>
+            </ul>
+            <section class="jules">
+                <img
+                    alt="Jules" 
+                    class="jules__image"  
+                    src="./images/image-avatar.png" 
                 />
-                0.041 ETH
-            </span>
-            <span class="info__time">
-                <img 
-                    alt="Clock" 
-                    src="./images/icon-clock.svg" 
-                />
-                3 days left
-            </span>
+                <p>
+                    Creation of 
+                        <span 
+                            class="jules__span"
+                            >Jules Wyvern
+                        </span>
+                </p>
+            </section>
         </section>
-        <section class="jules">
-            <img
-                alt="Jules" 
-                class="jules__image"  
-                src="./images/image-avatar.png" 
-            />
-            <p>
-                Creation of 
-                    <span 
-                        class="jules__span"
-                        >Jules Wyvern
-                    </span>
-            </p>
-        </section>
+        <footer class="attribution">
+            Challenge from
+                <a 
+                    href="https://www.frontendmentor.io?ref=challenge" 
+                    target="_blank"
+                    >Frontend Mentor
+                </a>
+            Coded by
+                <a 
+                    href="https://www.frontendmentor.io/profile/indigomx9"
+                    target="_blank"
+                    >Craig Johnson
+                </a>
+        </footer>
     </main>
-    <footer class="attribution">
-        Challenge from
-            <a 
-                href="https://www.frontendmentor.io?ref=challenge" 
-                target="_blank"
-                >Frontend Mentor
-            </a>
-        Coded by
-            <a 
-                href="https://www.frontendmentor.io/profile/indigomx9"
-                target="_blank"
-                >Craig Johnson
-            </a>
-    </footer>
 </body>
 </html>
